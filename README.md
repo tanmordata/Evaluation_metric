@@ -1,11 +1,14 @@
 # Understanding Evaluation Metrics
 
+![alt text](https://www.pngitem.com/pimgs/m/401-4013771_pred-analytics-prediction-analytics-icon-hd-png-download.png)
+
 Developing a predictive model is the use of historical data to make inferences about future events that have not occurred yet. 
 Evaluation metrics are used to test how “good” a model’s performance is. There are plenty of metrics available and the use choosing the correct metric for one’s data is dependent on the problem that is being asked. These metrics can fall in either two categories: classification or regression.
 Classification metrics assign a class label and are common in predicting categorical values. A common example of a label would be in identifying emails as either ‘spam’ or ‘not spam’. 
 
 The most common classification metrics are:
 Confusion matrix: visualizes the performance of a classification metric and use known values to test against predicted values. In the image below, we see four outcomes based on an evaluation against the actual values. The true positive and true negative values are the result of having our predictions match our actual values. In the false positive and false negative areas, we incorrectly predict our values based on our actual ones. These lead to Type I (false positive) and type II (false negative) errors. 
+![alt text](https://miro.medium.com/max/431/0*AN_NBuYefGEHm6hP)
 
 Accuracy: a measurement of how ‘correct’ our prediction is and is the ratio of correct predictions to total predictions. 
 Precision: the number of true positive values over total predicted positive values and focuses on type I errors. 
