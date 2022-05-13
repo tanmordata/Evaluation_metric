@@ -10,13 +10,22 @@ The most common classification metrics are:
 Confusion matrix: visualizes the performance of a classification metric and use known values to test against predicted values. In the image below, we see four outcomes based on an evaluation against the actual values. The true positive and true negative values are the result of having our predictions match our actual values. In the false positive and false negative areas, we incorrectly predict our values based on our actual ones. These lead to Type I (false positive) and type II (false negative) errors. 
 ![alt text](https://miro.medium.com/max/431/0*AN_NBuYefGEHm6hP)
 
-Accuracy: a measurement of how ‘correct’ our prediction is and is the ratio of correct predictions to total predictions. 
+Accuracy: a measurement of how ‘correct’ our prediction is and is the ratio of correct predictions to total predictions.
+
 Precision: the number of true positive values over total predicted positive values and focuses on type I errors. 
+
 Recall: how many actual positive values are predicted correctly with the model. This is important in cases where the limiting false negative values is of higher concern. 
+
 Regression metrics involve predicting numerical values and “is the task of approximating a mapping function (f) from input variables (X) to a continuous output variable (y)”. Regression metrics deal with error instead of accuracy like a classification model does. Some common metrics are:
-mean squared error (MSE): the mean of squared differences between actual and predicted values 
+
+Mean squared error (MSE): the mean of squared differences between actual and predicted values 
+
 Mean absolute error (MAE): average of the absolute difference between actual and predicted values 
+
 Root mean squared error (RMSE): the root of the mean squared error: it reduces the sensitivity to outliers that are affected in the MSE
+
+![image](https://user-images.githubusercontent.com/97196000/168316778-8270c78c-7028-47a0-8afe-42b53136f045.png)
+
 When choosing between the two metrics, it is important to understand what type of questions the model is supposed to ask and what kind of data is available because some metrics will not be usable. For example, accuracy applies to classification but does not apply to regression because it cannot be calculated for a regression model. Additionally, RMSE cannot be done for classification models. 
 
 
