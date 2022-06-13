@@ -2,7 +2,7 @@
 
 ![alt text](https://www.pngitem.com/pimgs/m/401-4013771_pred-analytics-prediction-analytics-icon-hd-png-download.png)
 
-Developing a predictive model is the use of historical data to make decisions about future events that have not occurred yet. 
+Developing a predictive model is the use of historical data to make decisions about future events. 
 Evaluation metrics are used to test how “good” a model’s performance is. There are plenty of metrics available and the process of choosing the correct metric is dependent on the problem that is being asked and characteristics of the data used. 
 Metrics to evaluate a classification problem look to demonstrate the performance of predicting categorical values. A common example of a problem would be in identifying emails as either ‘spam’ or ‘not spam’.  
 
